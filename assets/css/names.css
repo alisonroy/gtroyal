@@ -1,0 +1,89 @@
+.name {
+  position: relative;
+  width: 200px;
+  left: 50%;
+  text-indent: -300%;
+  height: 40px;
+  top: 50%;
+  margin-top: -20px;
+}
+
+p {
+  display: flex;
+  vertical-align: top;
+  /* left: 50%; */
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0px 10px;
+
+  font-style: bold;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 56px;
+  color: rgb(199, 224, 87);
+}
+
+.word {
+  position: absolute;
+  width: 300px;
+  opacity: 0;
+}
+
+.letter {
+  display: inline-block;
+  /* position: relative; */
+  /* float: left; */
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+  font-weight: bolder;
+  font-size: 1.8rem;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* .wisteria {
+  color: #8e44ad;
+} */
+
+.w1 {
+  color: #2980b9;
+}
+
+.w2 {
+  color: #c0392b;
+}
+
+.w3 {
+  color: #16a085;
+}
+
+/* .midnight {
+  color: #2c3e50;
+} */
+#hero h1 {
+  margin: 0 0 30px 0;
+  font-style: italic;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 56px;
+  color: rgb(199, 224, 87);
+}
