@@ -514,7 +514,7 @@ section {
   border-radius: 15px;
   margin-right: 2rem;
   animation: box 5s infinite;
-  line-height: 1.5rem;
+  line-height: 2rem;
 }
 
 @keyframes box {
@@ -548,7 +548,9 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-
+.about img {
+  margin-top: -1.8rem;
+}
 @media (max-width: 768px) {
   .card-custom {
     padding: 2rem !important;

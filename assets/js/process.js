@@ -4,13 +4,10 @@ var swiper = new Swiper(".swiper-process", {
   effect: "fade",
   loop: true,
   speed: 300,
-  mousewheel: {
-    invert: false,
-  },
   loop: false,
   // delay between transitions in ms
   autoplay: {
-    delay: 3000,
+    delay: 5000,
     loop: true,
   },
   pagination: {
