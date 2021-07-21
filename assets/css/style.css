@@ -1532,14 +1532,14 @@ section {
   .contact-symbols {
     padding: 0 auto;
   }
-  #enq {
+  /* #enq {
     margin: 10px !important;
     display: block;
     transform: translateX(-50%);
     padding: 10px 15px !important;
     left: 47%;
     position: absolute;
-  }
+  } */
 }
 
 /*--------------------------------------------------------------

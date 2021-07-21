@@ -11,8 +11,7 @@ $(window).on("load", function () {
 
 $(document).on("ready", function () {
   setTimeout(function () {
-    document.getElementById("progressive").classList.add("d-none");
-    document.getElementById("container").classList.remove("d-none");
-    document.getElementById("container").classList.add("d-block");
+    document.getElementById("progressive").style.visibility = "hidden";
+    document.getElementById("container").style.visibility = "visible";
   }, 8000);
 });
