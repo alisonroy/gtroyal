@@ -1530,7 +1530,7 @@ section {
 
 @media (max-width: 768px) {
   .contact-symbols {
-    padding: 0;
+    padding: 0 auto;
   }
   #enq {
     margin: 10px !important;
@@ -1749,8 +1749,8 @@ section {
   overflow: hidden;
   background: none !important;
   height: 350px;
-  width: 350px;
-  padding: 5px 20px;
+  width: 330px;
+  /* padding: 5px 20px; */
   /* padding: 5px 15px; */
 }
 @media (max-width: 768px) {
@@ -1764,9 +1764,19 @@ section {
     width: 250px;
   }
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .mapouter {
+    height: 100px;
+    width: 150px;
+  }
 
+  .gmap_canvas {
+    height: 100px;
+    width: 150px;
+  }
+}
 @media (min-width: 1024px) and (max-width: 1366px) {
-  mapouter {
+  .mapouter {
     height: 250px;
     width: 250px;
   }

@@ -1,5 +1,5 @@
 $(window).on("load", function () {
-  document.getElementById("container").style.visibility = "hidden";
+  // document.getElementById("container").style.visibility = "hidden";
   /* Progress Bar animation */
   $(".progress-bar").animate(
     {
@@ -11,7 +11,8 @@ $(window).on("load", function () {
 
 $(document).on("ready", function () {
   setTimeout(function () {
-    document.getElementById("progressive").style.visibility = "hidden";
-    document.getElementById("container").style.visibility = "visible";
+    document.getElementById("progressive").classList.add("d-none");
+    document.getElementById("container").classList.remove("d-none");
+    document.getElementById("container").classList.add("d-block");
   }, 8000);
 });
