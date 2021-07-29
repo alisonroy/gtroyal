@@ -13,5 +13,5 @@ $(document).on("ready", function () {
   setTimeout(function () {
     document.getElementById("progressive").style.visibility = "hidden";
     document.getElementById("container").style.visibility = "visible";
-  }, 8000);
+  }, 7000);
 });
