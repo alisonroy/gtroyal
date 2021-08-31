@@ -279,17 +279,17 @@
     view_more.classList.add("d-none");
   });
 })();
-window.onload = function () {
-  // Array of Images
-  var backgroundImg = [
-    "assets/img/Goldenbg.jpg",
-    "assets/img/blue-concrete-textured-wall.jpg",
-    "assets/img/navy-blue-concrete-wall-with-scratches.jpg",
-  ];
+// window.onload = function () {
+//   // Array of Images
+//   var backgroundImg = [
+//     "assets/img/Goldenbg.jpg",
+//     "assets/img/blue-concrete-textured-wall.jpg",
+//     "assets/img/navy-blue-concrete-wall-with-scratches.jpg",
+//   ];
 
-  setInterval(changeImage, 5000);
-  function changeImage() {
-    var i = Math.floor(Math.random() * 3);
-    document.body.style.backgroundImage = "url('" + backgroundImg[i] + "')";
-  }
-};
+//   setInterval(changeImage, 5000);
+//   function changeImage() {
+//     var i = Math.floor(Math.random() * 3);
+//     document.body.style.backgroundImage = "url('" + backgroundImg[i] + "')";
+//   }
+// };
