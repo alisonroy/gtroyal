@@ -181,8 +181,7 @@
 
             <!--Waves Container-->
             <div>
-              <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+              <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
                 <defs>
                   <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
                 </defs>
@@ -296,8 +295,7 @@
               <div class="swiper-slide  ">
 
                 <div class="card-box primary ">
-                  <img src="https://www.gtbeedi.com/gtroyal/assets/images/img-20190821-wa0030-676x450.jpg" alt=""
-                    class="img-fluid">
+                  <img src="https://www.gtbeedi.com/gtroyal/assets/images/img-20190821-wa0030-676x450.jpg" alt="" class="img-fluid">
                   <!-- <h10></h10>
                 <h11></h11>
                 <p></p>
@@ -307,8 +305,7 @@
               </div>
               <div class="swiper-slide ">
                 <div class="card-box secondary rotate">
-                  <img src="https://www.gtbeedi.com/gtroyal/assets/images/img-20190821-wa0037-676x450.jpg" alt=""
-                    class="img-fluid">
+                  <img src="https://www.gtbeedi.com/gtroyal/assets/images/img-20190821-wa0037-676x450.jpg" alt="" class="img-fluid">
                   <!-- <h10></h10>
                 <h11></h11>
                 <p></p> -->
@@ -942,9 +939,7 @@
             <div class="info" data-aos="fade-right">
               <div class="row pt-3">
                 <div class="mapouter mx-auto">
-                  <div class="gmap_canvas"><iframe width="330" height="300" id="gmap_canvas"
-                      src="https://maps.google.com/maps?q=No.2,%20JP%20Koil%20Street,%20Old%20washermenpet,%20Chennai%20-%20600%20021.%20INDIA.&t=&z=17&ie=UTF8&iwloc=&output=embed"
-                      frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                  <div class="gmap_canvas"><iframe width="330" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=No.2,%20JP%20Koil%20Street,%20Old%20washermenpet,%20Chennai%20-%20600%20021.%20INDIA.&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                   </div>
                 </div>
               </div>
@@ -985,7 +980,7 @@
               <h2>Enquiry</h2>
               <!-- <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga eum quidem</p> -->
             </div>
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form" data-aos="fade-left">
+            <form method="post" role="form" class="php-email-form" id="sms-form" data-aos="fade-left">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -1003,17 +998,19 @@
                 </div>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" id="message" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
               <div class="text-center">
-                <span><button class="sub-btn" type="submit">Send Message</button></span>
-                <span><a id="enq" class="sub-btn" id="elink" href="https://www.gtbeedi.com/contact.htm"
-                    target="_blank">Enquire
+                <p class="text-success d-none" id="sms-success">Thank you for reaching out to us. We will contact you
+                  soon.
+                </p>
+                <p class="text-danger d-none" id="sms-fail">Kindly try again after sometime</p>
+                <p id="sms-fill" class="text-danger d-none">Kindly fill all the required fields</p>
+                <span><button id="sms-btn" class="sub-btn" type="submit">Send Message</button></span>
+                <span><a id="enq" class="sub-btn" id="elink" href="https://www.gtbeedi.com/contact.htm" target="_blank">Enquire
                     Now</a></span>
               </div>
             </form>
@@ -1046,8 +1043,7 @@
       </div>
     </footer><!-- End Footer -->
 
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-        class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
   </div>
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
@@ -1068,6 +1064,7 @@
   <script src="assets/js/script.js"></script>
   <script src="assets/js/swiper.js"></script>
   <script src="assets/js/process.js"></script>
+  <script src="assets/js/sendsms.js"></script>
 
 
 </body>
