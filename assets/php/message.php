@@ -13,7 +13,7 @@ curl_setopt_array($curl, [
     CURLOPT_TIMEOUT => 30,
     CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
     CURLOPT_CUSTOMREQUEST => "POST",
-    CURLOPT_POSTFIELDS => "{\n  \"messages\": [\n    {\n      \"source\": \"GTROYAL\",\n      \"from\": \"GTROYAL\",\n      \"body\": \"$text\",\n      \"to\": \"+918220290460\",\n      \"custom_string\": \"this is a test\"\n    }\n  ]\n}",
+    CURLOPT_POSTFIELDS => "{\n  \"messages\": [\n    {\n      \"source\": \"GTROYAL\",\n      \"from\": \"GTROYAL\",\n      \"body\": \"$text\",\n      \"to\": \"+918220089555\",\n      \"custom_string\": \"this is a test\"\n    }\n  ]\n}",
     CURLOPT_HTTPHEADER => [
         "authorization: Basic cGFmaWdhOTkzN0BlbmFtZWxtZS5jb206MzlDRDExRTMtQkQ1MS0wREFDLTJGQkYtMzQxRkJCOTE4M0Mx",
         "content-type: application/json",
