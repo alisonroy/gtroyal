@@ -276,7 +276,7 @@
 
           <div class="section-title" data-aos="fade-up">
             <h2>products</h2>
-            <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga eum quidem</p>
+            <!-- <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga eum quidem</p> -->
           </div>
           <div class="swiper-container py-5 card-snippet ">
             <!-- Additional required wrapper -->
@@ -977,7 +977,7 @@
           </center> -->
           <div class="col-md-8 mt-5 mt-lg-0">
             <div class="section-title">
-              <h2>Enquiry</h2>
+              <h2>For Enquiry</h2>
               <!-- <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga eum quidem</p> -->
             </div>
             <form method="post" role="form" class="php-email-form" id="sms-form" data-aos="fade-left">
@@ -1009,9 +1009,9 @@
                 </p>
                 <p class="text-danger d-none" id="sms-fail">Kindly try again after sometime</p>
                 <p id="sms-fill" class="text-danger d-none">Kindly fill all the required fields</p>
-                <span><button id="sms-btn" class="sub-btn" type="submit">Send Message</button></span>
-                <span><a id="enq" class="sub-btn" id="elink" href="https://www.gtbeedi.com/contact.htm" target="_blank">Enquire
-                    Now</a></span>
+                <span><button id="sms-btn" class="sub-btn" type="submit">Submit</button></span>
+                <!-- <span><a id="enq" class="sub-btn" id="elink" href="https://www.gtbeedi.com/contact.htm" target="_blank">Enquire
+                    Now</a></span> -->
               </div>
             </form>
 

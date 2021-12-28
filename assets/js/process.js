@@ -1,6 +1,7 @@
 var swiper = new Swiper(".swiper-process", {
   slidesPerView: 1,
   spaceBetween: 20,
+  initialSlide: 3,
   effect: "fade",
   loop: true,
   speed: 300,
