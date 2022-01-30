@@ -2197,10 +2197,8 @@ p {
   transform: translateY(20px);
   transition: all 0.4s ease;
   transition-delay: 0.2s;
-  overflow: hidden;
+  /* overflow: hidden; */
   max-width: 100%;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 @media screen and (max-width: 520px) {
   .swiper-process h1 {
@@ -2217,11 +2215,10 @@ p {
   transition: all 0.4s ease;
   transition-delay: 0.3s;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  /* -webkit-line-clamp: 3; */
   -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
   padding-top: 10px;
+  overflow: visible !important;
 }
 @media screen and (max-width: 520px) {
   .swiper-process p {
@@ -2256,14 +2253,14 @@ p {
 .swiper-process .slider-image-wrapper {
   height: 200px;
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .swiper-process .slider-item {
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  overflow: hidden;
+  /* overflow: hidden; */
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
@@ -2329,7 +2326,6 @@ p {
 @media screen and (max-width: 768px) {
   .swiper-process .slider-item-content {
     padding: 5px;
-    overflow: scroll !important;
   }
 }
 /*--------------------------------------------------------------

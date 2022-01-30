@@ -11,7 +11,7 @@ $(window).on("load", function () {
 
 $(document).on("ready", function () {
   setTimeout(function () {
-    document.getElementById("progressive").style.visibility = "hidden";
     document.getElementById("container").style.visibility = "visible";
-  }, 5000);
+    document.getElementById("progressive").style.visibility = "hidden";
+  }, 7000);
 });
